@@ -9,5 +9,5 @@ const ArrowDownSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props
     ></path>
   </svg>
 ));
-
+ArrowDownSVG.displayName = "ArrowDownSVG";
 export default ArrowDownSVG;

@@ -38,4 +38,5 @@ const HeroLeftSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props 
   </svg>
 ));
 
+HeroLeftSVG.displayName = "HeroLeftSVG";
 export default HeroLeftSVG;

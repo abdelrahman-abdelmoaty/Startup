@@ -5,6 +5,7 @@ import ArrowDownSVG from "../svgs/ArrowDownSVG";
 import ThemeSwitch from "../Theme/ThemeSwitch";
 import { useEffect, useState } from "react";
 import ContainedLink from "../Styled/ContainedLink";
+import Image from "next/image";
 
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -29,8 +30,8 @@ export default function Navbar() {
     <header className={`${scrolled ? "fixed bg-background dark:bg-[#4a6cf733] backdrop-blur-sm bg-opacity-70 dark:bg-opacity-70 py-2.5" : "absolute bg-transparent py-4"} shadow-sm top-0 left-0 right-0 z-50 pr-20 lg:px-8`}>
       <div className={`container flex items-center `}>
         <a href="/" className="lg:mr-16 py-4">
-          <img src={logo.src} alt="" className="hidden dark:block w-full" />
-          <img src={logoDark.src} alt="" className="block dark:hidden" />
+          <Image width="100" height="100" src={logo.src} alt="" className="hidden dark:block w-full" />
+          <Image width="100" height="100" src={logoDark.src} alt="" className="block dark:hidden w-full" />
         </a>
         <button onClick={handleToggleMenu} className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
           <span className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${toggleMenu && "top-[7px] rotate-45"}`}></span>

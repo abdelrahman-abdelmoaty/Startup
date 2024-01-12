@@ -5,6 +5,7 @@ import Paragraph from "../Styled/Paragraph";
 import PlaySVG from "../svgs/PlaySVG";
 import shape from "../svgs/shape.svg";
 import videoImage from "../svgs/video.webp";
+import Image from "next/image";
 
 export default function Video() {
   const [openVideo, setOpenVideo] = useState<boolean>(false);
@@ -22,10 +23,10 @@ export default function Video() {
           >
             <PlaySVG />
           </button>
-          <img src={videoImage.src} alt="" className="w-full h-full bg-cover" />
+          <Image width="100" height="100" src={videoImage.src} alt="" className="w-full h-full bg-cover" />
         </div>
       </div>
-      <img src={shape.src} className="absolute bottom-0 left-0 right-0 z-10 w-full" />
+      <Image width="100" height="100" src={shape.src} alt="" className="absolute bottom-0 left-0 right-0 z-10 w-full" />
       {openVideo && (
         <div className="fixed top-0 left-0 flex items-center justify-center w-full h-full bg-black bg-opacity-60 z-30">
           <div className="flex items-start">

@@ -16,4 +16,5 @@ const SunSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }, re
   </svg>
 ));
 
+SunSVG.displayName = "SunSVG";
 export default SunSVG;

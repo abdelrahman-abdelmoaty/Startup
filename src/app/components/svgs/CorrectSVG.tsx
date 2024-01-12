@@ -7,4 +7,5 @@ const CorrectSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }
   </svg>
 ));
 
+CorrectSVG.displayName = "CorrectSVG";
 export default CorrectSVG;

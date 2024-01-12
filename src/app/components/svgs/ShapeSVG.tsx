@@ -24,4 +24,5 @@ const ShapeSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }, 
   </svg>
 ));
 
+ShapeSVG.displayName = "ShapeSVG";
 export default ShapeSVG;

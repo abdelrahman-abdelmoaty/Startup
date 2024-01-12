@@ -12,4 +12,5 @@ const MoonSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }, r
   </svg>
 ));
 
+MoonSVG.displayName = "MoonSVG";
 export default MoonSVG;

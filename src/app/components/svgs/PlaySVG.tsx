@@ -7,4 +7,5 @@ const PlaySVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }, r
   </svg>
 ));
 
+PlaySVG.displayName = "PlaySVG";
 export default PlaySVG;

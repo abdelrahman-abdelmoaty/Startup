@@ -18,7 +18,7 @@ function ThemedImage() {
       break;
   }
 
-  return <Image src={src} width={400} height={400} alt={""} />;
+  return <Image width="100" height="100" src={src} width={400} height={400} alt={""} />;
 }
 
 export default ThemedImage;
