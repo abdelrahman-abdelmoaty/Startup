@@ -8,10 +8,13 @@ const config: Config = {
       padding: {
         DEFAULT: "1rem",
       },
+      screens: {
+        "2xl": "1350px",
+      },
     },
     extend: {
       colors: {
-        foreground: "rgba(74, 108, 247, 0.9)",
+        foreground: "#4a6cf7",
         foregroundDark: "white",
         background: "white",
         secondaryBackground: "#F9FAFF",
