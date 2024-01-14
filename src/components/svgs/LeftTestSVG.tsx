@@ -23,20 +23,20 @@ const LeftTestSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props 
     </g>
     <defs>
       <linearGradient id="paint0_linear_72:302" x1="256.267" y1="53.6717" x2="-40.8688" y2="8.15715" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
-        <stop offset="1" stop-color="#4A6CF7"></stop>
+        <stop stopColor="#4A6CF7" stopOpacity="0"></stop>
+        <stop offset="1" stopColor="#4A6CF7"></stop>
       </linearGradient>
       <linearGradient id="paint1_linear_72:302" x1="256.267" y1="42.6717" x2="-40.8688" y2="-2.84285" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
-        <stop offset="1" stop-color="#4A6CF7"></stop>
+        <stop stopColor="#4A6CF7" stopOpacity="0"></stop>
+        <stop offset="1" stopColor="#4A6CF7"></stop>
       </linearGradient>
       <linearGradient id="paint2_linear_72:302" x1="256.267" y1="64.6717" x2="-40.8688" y2="19.1572" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
-        <stop offset="1" stop-color="#4A6CF7"></stop>
+        <stop stopColor="#4A6CF7" stopOpacity="0"></stop>
+        <stop offset="1" stopColor="#4A6CF7"></stop>
       </linearGradient>
       <linearGradient id="paint3_linear_72:302" x1="256.267" y1="76.6717" x2="-40.8688" y2="31.1572" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7" stop-opacity="0"></stop>
-        <stop offset="1" stop-color="#4A6CF7"></stop>
+        <stop stopColor="#4A6CF7" stopOpacity="0"></stop>
+        <stop offset="1" stopColor="#4A6CF7"></stop>
       </linearGradient>
     </defs>
   </svg>

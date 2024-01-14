@@ -7,12 +7,12 @@ const RightTestSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props
     <rect opacity="0.3" x="426.568" y="144.886" width="59.7544" height="541.607" rx="2" transform="rotate(51.2997 426.568 144.886)" fill="url(#paint1_linear_83:2)"></rect>
     <defs>
       <linearGradient id="paint0_linear_83:2" x1="517.152" y1="-251.373" x2="517.152" y2="459.865" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7"></stop>
-        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+        <stop stopColor="#4A6CF7"></stop>
+        <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"></stop>
       </linearGradient>
       <linearGradient id="paint1_linear_83:2" x1="455.327" y1="-35.673" x2="455.327" y2="675.565" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7"></stop>
-        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+        <stop stopColor="#4A6CF7"></stop>
+        <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"></stop>
       </linearGradient>
     </defs>
   </svg>

@@ -7,12 +7,12 @@ const PricingSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }
     <rect opacity="0.3" x="-188.201" y="385.272" width="59.7544" height="541.607" rx="2" transform="rotate(-128.7 -188.201 385.272)" fill="url(#paint1_linear_93:235)"></rect>
     <defs>
       <linearGradient id="paint0_linear_93:235" x1="-90.1184" y1="420.414" x2="-90.1184" y2="1131.65" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7"></stop>
-        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+        <stop stopColor="#4A6CF7"></stop>
+        <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"></stop>
       </linearGradient>
       <linearGradient id="paint1_linear_93:235" x1="-159.441" y1="204.714" x2="-159.441" y2="915.952" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4A6CF7"></stop>
-        <stop offset="1" stop-color="#4A6CF7" stop-opacity="0"></stop>
+        <stop stopColor="#4A6CF7"></stop>
+        <stop offset="1" stopColor="#4A6CF7" stopOpacity="0"></stop>
       </linearGradient>
     </defs>
   </svg>
