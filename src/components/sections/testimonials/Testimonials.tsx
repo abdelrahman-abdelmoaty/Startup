@@ -13,8 +13,8 @@ export default function Testimonials() {
           <Paragraph className="text-center mb-12">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</Paragraph>
         </div>
         <div className="gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {TESTIMONIALS.map((testimonial) => (
-            <TestimonialCard testimonial={testimonial} />
+          {TESTIMONIALS.map((testimonial, idx) => (
+            <TestimonialCard key={idx} testimonial={testimonial} />
           ))}
         </div>
       </div>
