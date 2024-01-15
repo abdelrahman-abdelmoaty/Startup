@@ -13,38 +13,38 @@ export default function SaaS_1() {
           <Paragraph className="mb-12 ml-0">The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables.</Paragraph>
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Premium quality</Paragraph>
             </div>
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Next.js</Paragraph>
             </div>
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Tailwind CSS</Paragraph>
             </div>
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Rich documentation</Paragraph>
             </div>
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Use for lifetime</Paragraph>
             </div>
             <div className="w-fit flex items-center gap-5">
-              <div className="p-1  bg-[#ECF0FF]">
-                <CorrectSVG className="text-foreground w-6 h-6" />
+              <div className="p-2 rounded-lg  bg-[#ECF0FF] dark:bg-[#0F1849]">
+                <CorrectSVG className="text-foreground w-4 h-4" />
               </div>
               <Paragraph className="mt-0 p-0">Developer friendly</Paragraph>
             </div>

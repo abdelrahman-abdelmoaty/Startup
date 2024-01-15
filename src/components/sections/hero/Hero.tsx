@@ -17,7 +17,7 @@ export default function Hero() {
           <ContainedLink href="/getPro" className="hover:shadow-none hover:opacity-80 py-4 px-6 w-fit">
             🔥 Get Pro
           </ContainedLink>
-          <ContainedLink href="" className="hover:shadow-none hover:opacity-70 py-4 text-text dark:text-textDark bg-gray-300 dark:bg-gray-700 bg-opacity-80">
+          <ContainedLink href="" className="hover:shadow-none hover:opacity-100 dark:hover:opacity-100 dark:hover:bg-gray-500 py-4 text-text dark:text-textDark bg-gray-300 hover:bg-gray-400 dark:bg-[#535771]">
             Star on Github
           </ContainedLink>
         </div>

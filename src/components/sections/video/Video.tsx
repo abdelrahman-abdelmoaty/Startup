@@ -28,7 +28,7 @@ export default function Video() {
           </div>
         </div>
       </div>
-      <Image width="100" height="100" src={shape.src} alt="" className="absolute bottom-0 left-0 right-0 z-10 w-full" />
+      <img width="100" height="100" src={shape.src} alt="" className="absolute bottom-0 left-0 right-0 z-10 w-full" />
       {openVideo && (
         <div className="fixed inset-0 h-full flex items-center justify-center bg-black bg-opacity-60 z-50 sm:px-24">
           <div className="container flex flex-col items-start">

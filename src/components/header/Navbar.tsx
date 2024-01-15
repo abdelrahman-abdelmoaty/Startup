@@ -29,8 +29,8 @@ export default function Navbar() {
   return (
     <header
       className={cn("inset-x-0 top-0 z-50 pr-20 lg:pr-0 bg-background dark:bg-[#4a6cf733]", {
-        "fixed backdrop-blur-sm py-2.5 shadow-sm bg-opacity-70 dark:bg-opacity-70": scrolled,
-        "absolute bg-transparent py-4": !scrolled,
+        "fixed backdrop-blur-sm py-2 shadow-sm bg-opacity-70 dark:bg-opacity-70": scrolled,
+        "absolute bg-transparent dark:bg-transparent py-4": !scrolled,
       })}
     >
       <div className="container flex items-center">
@@ -55,7 +55,7 @@ export default function Navbar() {
           >
             <li className="py-2 lg:py-4">
               <a href="" className="hover:opacity-70">
-                home
+                Home
               </a>
             </li>
             <li className="py-2 lg:py-4">
@@ -79,7 +79,7 @@ export default function Navbar() {
           </ul>
         </nav>
         <div className="ml-auto items-center gap-5 flex">
-          <a href="" className="hidden md:block hover:opacity-70 text-text font-bold dark:text-textDark">
+          <a href="" className="hidden md:block hover:opacity-70 transition duration-300 text-text font-bold dark:text-textDark">
             Sign in
           </a>
           <ContainedLink href="/signup" className="hidden md:block">
