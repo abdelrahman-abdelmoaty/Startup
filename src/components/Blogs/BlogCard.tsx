@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { Blog } from "@/utils/types";
-import Heading from "@/components/ui/Heading";
-import Paragraph from "@/components/ui/Paragraph";
+import Heading from "@components/ui/Heading";
+import Paragraph from "@components/ui/Paragraph";
 export default function ({ blog: { title, desc, date, author, authorTitle, authorImgUrl, category, url, blogImgUrl } }: { blog: Blog }) {
   return (
     <div className="shadow-lg dark:shadow-md bg-background dark:bg-[#1D2144] rounded-lg">

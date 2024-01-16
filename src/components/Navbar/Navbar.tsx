@@ -1,12 +1,12 @@
 "use client";
 import ArrowDownSVG from "@components/SVGs/ArrowDownSVG";
 import ThemeSwitch from "@/theme/ThemeSwitch";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ContainedLink from "@components/ui/ContainedLink";
 import Image from "next/image";
 import { cn } from "@/utils/lib";
-import logoBlack from "./logo/logoBlack.svg";
-import logoWhite from "./logo/logoWhite.svg";
+import logoBlack from "@components/Navbar/logo/logoBlack.svg";
+import logoWhite from "@components/Navbar/logo/logoWhite.svg";
 import useScroll from "@/hooks/useScroll";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -90,7 +90,8 @@ const DropDownMenu = () => {
   return (
     <>
       <a className="hover:opacity-70 flex items-center gap-x-[5px] py-4 cursor-pointer" onClick={handleToggleSubMenu}>
-        pages <ArrowDownSVG />
+        <span>pages</span>
+        <ArrowDownSVG className="relative top-[2px]" />
       </a>
       <div
         className={cn(

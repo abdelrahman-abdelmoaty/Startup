@@ -1,4 +1,4 @@
-import LeftTestSVG from "@/components/SVGs/LeftTestSVG";
+import LeftTestSVG from "@components/SVGs/LeftTestSVG";
 import { TESTIMONIALS } from "@components/Testimonials/TestimonialsData";
 import TestimonialCard from "@components/Testimonials/TestimonialCard";
 import Heading from "@components/ui/Heading";

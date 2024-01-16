@@ -1,6 +1,6 @@
-import Heading from "@/components/ui/Heading";
-import Paragraph from "@/components/ui/Paragraph";
-import CorrectSVG from "@/components/SVGs/CorrectSVG";
+import Heading from "@components/ui/Heading";
+import Paragraph from "@components/ui/Paragraph";
+import CorrectSVG from "@components/SVGs/CorrectSVG";
 import Image from "next/image";
 import SaaS_1_img from "@components/SaaS_1/imgs/SaaS_1.svg";
 
