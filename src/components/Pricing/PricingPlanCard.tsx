@@ -1,9 +1,9 @@
 import { PricingPlan } from "@/utils/types";
 import ContainedLink from "@components/ui/ContainedLink";
 import { PRICING_PLANS_FEATURES } from "@components/Pricing/PricingPlansData";
-import CheckMarkSVG from "../SVGs/CheckMarkSVG";
-import WrongMarkSVG from "../SVGs/WrongMarkSVG";
-import PricingCardSVG from "../SVGs/PricingCardSVG";
+import CheckMarkSVG from "@components/SVGs/CheckMarkSVG";
+import WrongMarkSVG from "@components/SVGs/WrongMarkSVG";
+import PricingCardSVG from "@components/SVGs/PricingCardSVG";
 
 export default function PricingPlanCard({ pricingPlan: { name, desc, pricePerMonth, pricePerYear, features }, yearly }: { pricingPlan: PricingPlan; yearly: boolean }) {
   return (

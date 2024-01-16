@@ -1,4 +1,5 @@
 "use client";
+import ArrowDownSVG from "@components/SVGs/ArrowDownSVG";
 import ThemeSwitch from "@/theme/ThemeSwitch";
 import { useState } from "react";
 import ContainedLink from "@components/ui/ContainedLink";
@@ -7,7 +8,6 @@ import { cn } from "@/utils/lib";
 import logoBlack from "@components/Navbar/logo/logoBlack.svg";
 import logoWhite from "@components/Navbar/logo/logoWhite.svg";
 import useScroll from "@/hooks/useScroll";
-import ArrowDownSVG from "../SVGs/ArrowDownSVG";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   const scrolled = useScroll();

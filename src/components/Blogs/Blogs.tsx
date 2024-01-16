@@ -1,7 +1,7 @@
 import Heading from "@components/ui/Heading";
 import Paragraph from "@components/ui/Paragraph";
-import { BLOGS } from "./BlogsData";
-import BlogCard from "./BlogCard";
+import { BLOGS } from "@components/Blogs/BlogsData";
+import BlogCard from "@components/Blogs/BlogCard";
 
 export default function Blogs() {
   return (
