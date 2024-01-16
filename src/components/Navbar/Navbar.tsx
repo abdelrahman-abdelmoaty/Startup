@@ -1,8 +1,8 @@
 "use client";
-import ArrowDownSVG from "../SVGs/ArrowDownSVG";
-import ThemeSwitch from "../../theme/ThemeSwitch";
+import ArrowDownSVG from "@components/SVGs/ArrowDownSVG";
+import ThemeSwitch from "@/theme/ThemeSwitch";
 import { useEffect, useState } from "react";
-import ContainedLink from "../ui/ContainedLink";
+import ContainedLink from "@components/ui/ContainedLink";
 import Image from "next/image";
 import { cn } from "@/utils/lib";
 import logoBlack from "./logo/logoBlack.svg";

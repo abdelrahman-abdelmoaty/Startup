@@ -19,7 +19,9 @@ export default function Home() {
       <Video />
       <Partners />
       <SaaS_1 />
-      <hr className="container" />
+      <div className="bg-background dark:bg-backgroundDark">
+        <hr className="container border-gray-500 border-opacity-30" />
+      </div>
       <SaaS_2 />
       <Testimonials />
       <Pricing />

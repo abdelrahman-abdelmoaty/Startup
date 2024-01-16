@@ -1,7 +1,7 @@
-import Heading from "../ui/Heading";
-import Paragraph from "../ui/Paragraph";
-import FeatureCard from "./FeatureCard";
-import { FEATURES } from "./FeaturesData";
+import Heading from "@components/ui/Heading";
+import Paragraph from "@components/ui/Paragraph";
+import FeatureCard from "@components/Features/FeatureCard";
+import { FEATURES } from "@components/Features/FeaturesData";
 
 export default function Features() {
   return (

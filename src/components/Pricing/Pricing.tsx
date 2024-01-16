@@ -1,11 +1,11 @@
 "use client";
 import PricingSVG from "@/components/SVGs/PricingSVG";
-import PricingPlanCard from "./PricingPlanCard";
-import { PRICES_PLANS } from "./PricingPlansData";
+import PricingPlanCard from "@components/Pricing/PricingPlanCard";
+import { PRICES_PLANS } from "@components/Pricing/PricingPlansData";
 import { useState } from "react";
 import { cn } from "@/utils/lib";
-import Heading from "../ui/Heading";
-import Paragraph from "../ui/Paragraph";
+import Heading from "@components/ui/Heading";
+import Paragraph from "@components/ui/Paragraph";
 
 export default function Pricing() {
   const [yearly, setYearly] = useState<boolean>(false);

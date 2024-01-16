@@ -1,8 +1,8 @@
 import LeftTestSVG from "@/components/SVGs/LeftTestSVG";
 import { TESTIMONIALS } from "@components/Testimonials/TestimonialsData";
 import TestimonialCard from "@components/Testimonials/TestimonialCard";
-import Heading from "../ui/Heading";
-import Paragraph from "../ui/Paragraph";
+import Heading from "@components/ui/Heading";
+import Paragraph from "@components/ui/Paragraph";
 
 export default function Testimonials() {
   return (
