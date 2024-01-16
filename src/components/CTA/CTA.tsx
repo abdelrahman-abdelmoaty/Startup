@@ -1,6 +1,6 @@
-import ContainedLink from "@/components/styled/ContainedLink";
-import Heading from "@/components/styled/Heading";
-import Paragraph from "@/components/styled/Paragraph";
+import ContainedLink from "@/components/ui/ContainedLink";
+import Heading from "@/components/ui/Heading";
+import Paragraph from "@/components/ui/Paragraph";
 import LeftSubscribeCardSVG from "@/components/svgs/LeftSubscribeCardSVG";
 
 export default function CTA() {

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logoBlack from "@components/header/logo/logoBlack.svg";
-import logoWhite from "@components/header/logo/logoWhite.svg";
+import logoBlack from "@components/Navbar/logo/logoBlack.svg";
+import logoWhite from "@components/Navbar/logo/logoWhite.svg";
 import FooterSVG from "@/components/svgs/FooterSVG";
 export default function Footer() {
   return (

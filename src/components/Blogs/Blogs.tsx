@@ -1,5 +1,5 @@
-import Heading from "@/components/styled/Heading";
-import Paragraph from "@/components/styled/Paragraph";
+import Heading from "@/components/ui/Heading";
+import Paragraph from "@/components/ui/Paragraph";
 import { BLOGS } from "./BlogsData";
 import BlogCard from "./BlogCard";
 

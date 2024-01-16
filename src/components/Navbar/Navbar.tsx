@@ -2,29 +2,19 @@
 import ArrowDownSVG from "../svgs/ArrowDownSVG";
 import ThemeSwitch from "../../theme/ThemeSwitch";
 import { useEffect, useState } from "react";
-import ContainedLink from "../styled/ContainedLink";
+import ContainedLink from "../ui/ContainedLink";
 import Image from "next/image";
 import { cn } from "@/utils/lib";
 import logoBlack from "./logo/logoBlack.svg";
 import logoWhite from "./logo/logoWhite.svg";
+import useScroll from "@/hooks/useScroll";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
-  const [scrolled, setScrolled] = useState<boolean>(false);
+  const scrolled = useScroll();
 
   const handleToggleMenu = () => {
     setToggleMenu((prev) => !prev);
   };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 100;
-      setScrolled(isScrolled);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <header

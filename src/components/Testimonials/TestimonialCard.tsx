@@ -1,7 +1,7 @@
 import FilledStarSVG from "@/components/svgs/FilledStarSVG";
 import Image from "next/image";
 import { Testimonial } from "@/utils/types";
-import Paragraph from "@/components/styled/Paragraph";
+import Paragraph from "@/components/ui/Paragraph";
 export default function TestimonialCard({ testimonial: { quote, img, name, title } }: { testimonial: Testimonial }) {
   return (
     <div className="bg-background dark:bg-dropMenuDark p-8 flex flex-col gap-5 shadow-sm rounded-lg">

@@ -1,5 +1,5 @@
-import Heading from "../../styled/Heading";
-import Paragraph from "../../styled/Paragraph";
+import Heading from "../ui/Heading";
+import Paragraph from "../ui/Paragraph";
 import FeatureCard from "./FeatureCard";
 import { FEATURES } from "./FeaturesData";
 

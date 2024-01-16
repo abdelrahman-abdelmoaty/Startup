@@ -1,8 +1,8 @@
-import Heading from "@components/styled/Heading";
-import Paragraph from "@components/styled/Paragraph";
+import Heading from "@/components/ui/Heading";
+import Paragraph from "@/components/ui/Paragraph";
 import CorrectSVG from "@components/svgs/CorrectSVG";
 import Image from "next/image";
-import SaaS_1_img from "@components/sections/SaaS_1/imgs/SaaS_1.svg";
+import SaaS_1_img from "@components/SaaS_1/imgs/SaaS_1.svg";
 
 export default function SaaS_1() {
   return (

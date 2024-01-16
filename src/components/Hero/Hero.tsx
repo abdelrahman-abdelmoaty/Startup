@@ -1,5 +1,5 @@
-import ContainedLink from "@components/styled/ContainedLink";
-import Paragraph from "@components/styled/Paragraph";
+import ContainedLink from "@/components/ui/ContainedLink";
+import Paragraph from "@/components/ui/Paragraph";
 import HeroLeftSVG from "@components/svgs/HeroLeftSVG";
 import HeroRightSVG from "@components/svgs/HeroRightSVG";
 

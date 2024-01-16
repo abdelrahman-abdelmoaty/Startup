@@ -1,10 +1,10 @@
 import { Blog } from "@/utils/types";
-import blogImg1 from "@components/sections/blogs/imgs/blog-01.webp";
-import blogImg2 from "@components/sections/blogs/imgs/blog-02.webp";
-import blogImg3 from "@components/sections/blogs/imgs/blog-03.webp";
-import authorImg1 from "@components/sections/blogs/imgs/auth-01.webp";
-import authorImg2 from "@components/sections/blogs/imgs/auth-02.webp";
-import authorImg3 from "@components/sections/blogs/imgs/auth-03.webp";
+import blogImg1 from "@components/blogs/imgs/blog-01.webp";
+import blogImg2 from "@components/blogs/imgs/blog-02.webp";
+import blogImg3 from "@components/blogs/imgs/blog-03.webp";
+import authorImg1 from "@components/blogs/imgs/auth-01.webp";
+import authorImg2 from "@components/blogs/imgs/auth-02.webp";
+import authorImg3 from "@components/blogs/imgs/auth-03.webp";
 
 export const BLOGS: Blog[] = [
   {

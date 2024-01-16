@@ -1,21 +1,12 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useScroll } from "framer-motion";
 
 export default function BackToTop() {
-  const [scrolled, setScrolled] = useState<boolean>(false);
+  const scrolled = useScroll();
   const goToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 100;
-      setScrolled(isScrolled);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+
   return (
     <>
       {scrolled && (
