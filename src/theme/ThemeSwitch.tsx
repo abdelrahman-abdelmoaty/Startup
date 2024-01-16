@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import MoonSVG from "../components/svgs/MoonSVG";
-import SunSVG from "../components/svgs/SunSVG";
+import MoonSVG from "../components/SVGs/MoonSVG";
+import SunSVG from "../components/SVGs/SunSVG";
 
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);

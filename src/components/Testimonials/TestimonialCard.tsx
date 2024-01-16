@@ -1,4 +1,4 @@
-import FilledStarSVG from "@/components/svgs/FilledStarSVG";
+import FilledStarSVG from "@/components/SVGs/FilledStarSVG";
 import Image from "next/image";
 import { Testimonial } from "@/utils/types";
 import Paragraph from "@/components/ui/Paragraph";

@@ -1,5 +1,5 @@
 "use client";
-import PricingSVG from "@/components/svgs/PricingSVG";
+import PricingSVG from "@/components/SVGs/PricingSVG";
 import PricingPlanCard from "./PricingPlanCard";
 import { PRICES_PLANS } from "./PricingPlansData";
 import { useState } from "react";

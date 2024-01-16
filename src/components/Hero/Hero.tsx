@@ -1,7 +1,7 @@
 import ContainedLink from "@/components/ui/ContainedLink";
 import Paragraph from "@/components/ui/Paragraph";
-import HeroLeftSVG from "@components/svgs/HeroLeftSVG";
-import HeroRightSVG from "@components/svgs/HeroRightSVG";
+import HeroLeftSVG from "@/components/SVGs/HeroLeftSVG";
+import HeroRightSVG from "@/components/SVGs/HeroRightSVG";
 
 export default function Hero() {
   return (

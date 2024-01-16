@@ -1,5 +1,5 @@
 "use client";
-import ArrowDownSVG from "../svgs/ArrowDownSVG";
+import ArrowDownSVG from "../SVGs/ArrowDownSVG";
 import ThemeSwitch from "../../theme/ThemeSwitch";
 import { useEffect, useState } from "react";
 import ContainedLink from "../ui/ContainedLink";
