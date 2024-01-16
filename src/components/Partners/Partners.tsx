@@ -1,9 +1,9 @@
 import Image from "next/image";
-import graygrids from "@components/partners/imgs/graygrids.svg";
-import tailadmin from "@components/partners/imgs/tailadmin.svg";
-import tailgrids from "@components/partners/imgs/tailgrids.svg";
-import uideck from "@components/partners/imgs/uideck.svg";
-import lineicons from "@components/partners/imgs/lineicons.svg";
+import graygrids from "@components/Partners/imgs/graygrids.svg";
+import tailadmin from "@components/Partners/imgs/tailadmin.svg";
+import tailgrids from "@components/Partners/imgs/tailgrids.svg";
+import uideck from "@components/Partners/imgs/uideck.svg";
+import lineicons from "@components/Partners/imgs/lineicons.svg";
 
 export default function Partners() {
   return (
