@@ -6,8 +6,8 @@ import Paragraph from "@components/ui/Paragraph";
 export default function ({ blog: { title, desc, date, author, authorTitle, authorImgUrl, category, url, blogImgUrl } }: { blog: Blog }) {
   return (
     <div className="shadow-lg dark:shadow-md bg-background dark:bg-[#1D2144] rounded-lg">
-      <div className="relative w-full">
-        <img src={blogImgUrl} alt={title} className="w-full rounded-t-lg object-cover" />
+      <div className="relative h-52">
+        <Image sizes="" fill src={blogImgUrl} alt={title} className="rounded-t-lg" />
         {/* <Image src={blogImgUrl} alt={title} width="100" height="100" className="w-full rounded-lg object-cover"></Image> */}
         <div className="absolute right-4 top-4 bg-foreground rounded-3xl py-2 px-4 font-semibold text-sm text-white">{category}</div>
       </div>
