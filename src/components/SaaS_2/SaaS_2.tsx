@@ -5,11 +5,11 @@ import SaaS_2_img from "@components/SaaS_2/imgs/SaaS_2.svg";
 export default function SaaS_1() {
   return (
     <section className="py-24 bg-background dark:bg-backgroundDark">
-      <div className="container flex flex-col lg:items-center lg:flex-row gap-10">
+      <div className="container flex flex-col lg:items-center lg:flex-row gap-2 0">
         <div className="lg:w-1/2 mx-auto md:mx-0">
           <Image width="100" height="100" src={SaaS_2_img.src} alt="SaaS_2_img" className="w-full max-w-lg" />
         </div>
-        <div className="lg:w-1/2 flex items-center justify-center">
+        <div className="lg:w-1/2">
           <div className="flex flex-col gap-10 max-w-lg">
             <div className="flex flex-col items-start gap-1">
               <h3 className="font-bold text-2xl">Bug free code</h3>

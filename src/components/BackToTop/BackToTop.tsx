@@ -1,5 +1,6 @@
 "use client";
-import { useScroll } from "framer-motion";
+
+import useScroll from "@/hooks/useScroll";
 
 export default function BackToTop() {
   const scrolled = useScroll();

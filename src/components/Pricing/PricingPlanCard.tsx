@@ -11,7 +11,7 @@ export default function PricingPlanCard({ pricingPlan: { name, desc, pricePerMon
       <div className="flex items-center">
         <div className="flex items-center">
           <p className="font-bold text-3xl">${yearly ? pricePerYear : pricePerMonth}</p>
-          <p className="text-3xl text-gray-400 font-bold">/{yearly ? "mo" : "yr"}</p>
+          <p className="text-3xl text-gray-400 font-bold">/{yearly ? "yr" : "mo"}</p>
         </div>
         <p className="ml-auto font-bold text-xl">{name}</p>
       </div>
