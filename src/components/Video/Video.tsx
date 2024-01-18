@@ -6,7 +6,7 @@ import PlaySVG from "@components/SVGs/PlaySVG";
 import shape from "@components/Video/imgs/shape.svg";
 import videoImage from "@components/Video/imgs/videoImage.jpg";
 import Image from "next/image";
-
+import ShapeSVG from "../SVGs/ShapeSVG";
 export default function Video() {
   const [openVideo, setOpenVideo] = useState<boolean>(false);
   return (
@@ -28,7 +28,8 @@ export default function Video() {
           </div>
         </div>
       </div>
-      <Image fill src={shape.src} alt="" className="absolute bottom-0 left-0 right-0 z-10 w-full" />
+      {/* <Image fill src={shape.src} alt="" className="absolute bottom-0 left-0 right-0 z-10 w-full" /> */}
+      <ShapeSVG className="absolute bottom-0 left-0 right-0 z-10 w-full" />
       {openVideo && (
         <div className="fixed inset-0 h-full flex items-center justify-center bg-black bg-opacity-60 z-50 sm:px-24">
           <div className="container flex flex-col items-start">

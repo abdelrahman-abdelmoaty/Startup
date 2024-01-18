@@ -2,7 +2,7 @@ import { IconProps } from "@/utils/lib";
 import { forwardRef } from "react";
 
 const ShapeSVG = forwardRef<SVGSVGElement, IconProps>(({ className, ...props }, ref) => (
-  <svg ref={ref} {...props} className={className} fill="none" width="1440" height="563" viewBox="0 0 1440 563" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <svg ref={ref} {...props} className={className} fill="none" height="563" viewBox="0 0 1440 563" width="1440" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="720" x2="720" y1="1" y2="562">
       <stop offset="0" stopColor="#4a6cf7" stopOpacity="0" />
       <stop offset="1" stopColor="#4a6cf7" />
