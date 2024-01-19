@@ -11,7 +11,7 @@ export default function SignUp() {
   return (
     <section className="bg-background dark:bg-backgroundDark py-24 relative">
       <div className="container py-24 relative z-20">
-        <div className="bg-opacity-50 flex flex-col  items-stretch justify-stretch gap-8 bg-secondaryBackground dark:bg-dropMenuDark rounded-lg max-w-xl p-16 mx-auto">
+        <div className="bg-opacity-50 flex flex-col  items-stretch justify-stretch gap-8 bg-secondaryBackground dark:bg-dropMenuDark rounded-lg max-w-xl py-16 px-4 md:px-16 mx-auto">
           <div>
             <Heading className="normal-case !text-3xl mb-2 text-center">Create your account</Heading>
             <Paragraph className="!text-base text-center">It’s totally free and super easy</Paragraph>
