@@ -1,6 +1,6 @@
 import Image from "next/image";
-import logoBlack from "@components/Navbar/logo/logoBlack.svg";
-import logoWhite from "@components/Navbar/logo/logoWhite.svg";
+import logoBlack from "@images/logo/logoBlack.svg";
+import logoWhite from "@images/logo/logoWhite.svg";
 import FooterSVG from "@components/SVGs/FooterSVG";
 export default function Footer() {
   return (
@@ -40,13 +40,13 @@ export default function Footer() {
         <div className="flex flex-col">
           <p className="text-2xl font-semibold mb-6">Useful Links</p>
           <div className="flex-1 flex flex-col justify-between gap-3">
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/blog" className="hover:text-foreground text-gray-400 font-medium">
               Blog
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               Pricing
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               About
             </a>
           </div>
@@ -54,13 +54,13 @@ export default function Footer() {
         <div className="flex flex-col">
           <p className="text-2xl font-semibold mb-6">Terms</p>
           <div className="flex-1 flex flex-col justify-between gap-3">
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               TOS
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               Privacy Policy
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               Refund Policy
             </a>
           </div>
@@ -68,13 +68,13 @@ export default function Footer() {
         <div className="flex flex-col">
           <p className="text-2xl font-semibold mb-6">Support & Help</p>
           <div className="flex-1 flex flex-col justify-between gap-3">
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               Open Support Ticket
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               Terms of Use
             </a>
-            <a href="" className="hover:text-foreground text-gray-400 font-medium">
+            <a href="/" className="hover:text-foreground text-gray-400 font-medium">
               About
             </a>
           </div>

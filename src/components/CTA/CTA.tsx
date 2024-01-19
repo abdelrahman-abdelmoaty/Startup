@@ -2,6 +2,7 @@ import ContainedLink from "@components/ui/ContainedLink";
 import Heading from "@components/ui/Heading";
 import Paragraph from "@components/ui/Paragraph";
 import LeftSubscribeCardSVG from "@components/SVGs/LeftSubscribeCardSVG";
+import FormElement from "../ui/FormElement";
 
 export default function CTA() {
   return (
@@ -13,18 +14,8 @@ export default function CTA() {
             <Paragraph className="!text-base ml-0">Our support team will get back to you ASAP via email.</Paragraph>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
-            <div className="flex flex-col gap-2">
-              <label htmlFor="name" className="text-sm">
-                Your Name
-              </label>
-              <input type="text" name="name" id="name" placeholder="Enter your name" className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-400 outline-none" />
-            </div>
-            <div className="flex flex-col gap-2">
-              <label htmlFor="email" className="text-sm">
-                Your Email
-              </label>
-              <input type="text" name="email" id="email" placeholder="Enter your email" className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-400 outline-none" />
-            </div>
+            <FormElement label="Your Name" name="name" placeholder="Enter your name" />
+            <FormElement label="Your Email" name="email" placeholder="Enter your Email" />
           </div>
           <div className="flex flex-col gap-2 mb-12">
             <label htmlFor="msg" className="text-sm">

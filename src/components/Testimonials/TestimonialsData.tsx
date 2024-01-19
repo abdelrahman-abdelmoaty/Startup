@@ -1,7 +1,7 @@
 import { Testimonial } from "@/utils/types";
-import img1 from "@components/Testimonials/imgs/auth-01.webp";
-import img2 from "@components/Testimonials/imgs/auth-02.webp";
-import img3 from "@components/Testimonials/imgs/auth-03.webp";
+import img1 from "@images/testimonials/auth-01.webp";
+import img2 from "@images/testimonials/auth-02.webp";
+import img3 from "@images/testimonials/auth-03.webp";
 
 export const TESTIMONIALS: Testimonial[] = [
   {

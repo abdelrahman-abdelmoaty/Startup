@@ -5,8 +5,8 @@ import { useState } from "react";
 import ContainedLink from "@components/ui/ContainedLink";
 import Image from "next/image";
 import { cn } from "@/utils/lib";
-import logoBlack from "@components/Navbar/logo/logoBlack.svg";
-import logoWhite from "@components/Navbar/logo/logoWhite.svg";
+import logoBlack from "@images/logo/logoBlack.svg";
+import logoWhite from "@images/logo/logoWhite.svg";
 import useScroll from "@/hooks/useScroll";
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
@@ -44,22 +44,22 @@ export default function Navbar() {
             )}
           >
             <li className="py-2 lg:py-4">
-              <a href="" className="hover:opacity-70">
+              <a href="/" className="hover:opacity-70">
                 Home
               </a>
             </li>
             <li className="py-2 lg:py-4">
-              <a href="" className="hover:opacity-70">
+              <a href="/about" className="hover:opacity-70">
                 About
               </a>
             </li>
             <li className="py-2 lg:py-4">
-              <a href="" className="hover:opacity-70">
+              <a href="/blog" className="hover:opacity-70">
                 Blog
               </a>
             </li>
             <li className="py-2 lg:py-4">
-              <a href="" className="hover:opacity-70">
+              <a href="/support" className="hover:opacity-70">
                 Support
               </a>
             </li>
@@ -69,7 +69,7 @@ export default function Navbar() {
           </ul>
         </nav>
         <div className="ml-auto items-center gap-5 flex">
-          <a href="" className="hidden md:block hover:opacity-70 transition duration-300 text-text font-bold dark:text-textDark">
+          <a href="/signin" className="hidden md:block hover:opacity-70 transition duration-300 text-text font-bold dark:text-textDark">
             Sign in
           </a>
           <ContainedLink href="/signup" className="hidden md:block">
@@ -101,42 +101,42 @@ const DropDownMenu = () => {
       >
         <ul className="text-sm w-52">
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/about" className="hover:opacity-70">
               About Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/support" className="hover:opacity-70">
               Contact Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/blog" className="hover:opacity-70">
               Blog Grid Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/blog-sidebar" className="hover:opacity-70">
               Blog Sidebar Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/blog-details" className="hover:opacity-70">
               Blog Details Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="signin" className="hover:opacity-70">
               Sign In Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/signup" className="hover:opacity-70">
               Sign Up Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="" className="hover:opacity-70">
+            <a href="/error" className="hover:opacity-70">
               Error Page
             </a>
           </li>

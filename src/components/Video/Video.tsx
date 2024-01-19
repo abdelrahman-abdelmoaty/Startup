@@ -3,8 +3,7 @@ import { useState } from "react";
 import Heading from "@components/ui/Heading";
 import Paragraph from "@components/ui/Paragraph";
 import PlaySVG from "@components/SVGs/PlaySVG";
-import shape from "@components/Video/imgs/shape.svg";
-import videoImage from "@components/Video/imgs/videoImage.jpg";
+import videoImage from "@images/video/videoImage.jpg";
 import Image from "next/image";
 import ShapeSVG from "../SVGs/ShapeSVG";
 export default function Video() {

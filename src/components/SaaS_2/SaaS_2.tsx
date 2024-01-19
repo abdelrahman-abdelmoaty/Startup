@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Paragraph from "@components/ui/Paragraph";
-import SaaS_2_img from "@components/SaaS_2/imgs/SaaS_2.svg";
+import SaaS_2_img from "@images/SaaS_2/SaaS_2.svg";
 
 export default function SaaS_1() {
   return (
