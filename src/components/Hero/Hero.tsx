@@ -14,10 +14,10 @@ export default function Hero() {
           Startup is free Next.js template for startups and SaaS business websites comes with all the essential pages, components, and sections you need to launch a complete business website, built-with Next 13.x and Tailwind CSS.
         </Paragraph>
         <div className="mt-12 flex flex-col sm:flex-row gap-5 items-center">
-          <ContainedLink href="/getPro" className="hover:shadow-none hover:opacity-80 py-4 px-6 w-fit">
+          <ContainedLink href="#" className="hover:shadow-none hover:opacity-80 py-4 px-6 w-fit">
             🔥 Get Pro
           </ContainedLink>
-          <ContainedLink href="" className="hover:shadow-none hover:opacity-100 dark:hover:opacity-100 dark:hover:bg-gray-500 py-4 text-text dark:text-textDark bg-gray-300 hover:bg-gray-400 dark:bg-[#535771]">
+          <ContainedLink href="#" className="hover:shadow-none hover:opacity-100 dark:hover:opacity-100 dark:hover:bg-gray-500 py-4 text-text dark:text-textDark bg-gray-300 hover:bg-gray-400 dark:bg-[#535771]">
             Star on Github
           </ContainedLink>
         </div>

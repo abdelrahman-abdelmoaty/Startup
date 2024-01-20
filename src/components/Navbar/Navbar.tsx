@@ -116,12 +116,12 @@ const DropDownMenu = () => {
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="/blog-sidebar" className="hover:opacity-70">
+            <a href="#" className="hover:opacity-70">
               Blog Sidebar Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="/blog-details" className="hover:opacity-70">
+            <a href="#" className="hover:opacity-70">
               Blog Details Page
             </a>
           </li>
