@@ -16,7 +16,7 @@ export default function SignUp() {
             <Heading className="normal-case !text-3xl mb-2 text-center">Create your account</Heading>
             <Paragraph className="!text-base text-center">It’s totally free and super easy</Paragraph>
           </div>
-          <a href="/" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground transition">
+          <a href="#" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground transition">
             <div className="flex items-center justify-center gap-3">
               <GoogleSVG />
               <p>Sign up with Google</p>

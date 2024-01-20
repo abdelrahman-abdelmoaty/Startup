@@ -14,7 +14,7 @@ export default function SignIn() {
             <Heading className="normal-case !text-3xl mb-2 text-center">Sign in to your account</Heading>
             <Paragraph className="!text-base text-center">Login to your account for a faster checkout.</Paragraph>
           </div>
-          <a href="/" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground transition">
+          <a href="#" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground transition">
             <div className="flex items-center justify-center gap-3">
               <GoogleSVG />
               <p>Sign in with Google</p>
