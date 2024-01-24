@@ -12,18 +12,20 @@ const ThemeSwitch = () => {
     setMounted(true);
   }, []);
 
-  if (!mounted) {
-    return null;
-  }
-
   return (
     <button
       onClick={() => {
         setTheme(theme === "light" ? "dark" : "light");
       }}
     >
-      <SunSVG />
-      <MoonSVG />
+      {mounted ? (
+        <>
+          <SunSVG />
+          <MoonSVG />
+        </>
+      ) : (
+        <SunSVG className="opacity-0 dark:opacity-0 !block" />
+      )}
     </button>
   );
 };

@@ -63,7 +63,7 @@ export default function Navbar() {
                 Support
               </a>
             </li>
-            <li className="group relative">
+            <li className="group relative py-2 lg:py-4">
               <DropDownMenu />
             </li>
           </ul>
