@@ -96,7 +96,7 @@ const DropDownMenu = () => {
       </a>
       <div
         className={cn(
-          "bg-background dark:bg-backgroundDark lg:dark:bg-dropMenuDark lg:absolute lg:top-full lg:translate-y-4 lg:shadow-lg lg:left-0 lg:rounded-lg lg:p-2 lg:py-4 transition-all duration-75 group-hover:translate-y-0 lg:block lg:invisible lg:group-hover:visible",
+          "bg-background dark:bg-backgroundDark lg:dark:bg-dropMenuDark lg:absolute lg:top-full lg:translate-y-4 lg:shadow-lg lg:left-0 lg:rounded-lg lg:p-2 lg:py-4 transition-transform duration-100 group-hover:translate-y-0 lg:block lg:invisible lg:group-hover:visible",
           { block: toggleSubMenu, hidden: !toggleSubMenu }
         )}
       >
