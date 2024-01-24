@@ -8,6 +8,7 @@ import { cn } from "@/utils/lib";
 import logoBlack from "@images/logo/logoBlack.svg";
 import logoWhite from "@images/logo/logoWhite.svg";
 import useScroll from "@/hooks/useScroll";
+
 export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState<boolean>(false);
   const scrolled = useScroll();
@@ -36,34 +37,34 @@ export default function Navbar() {
         <nav className="">
           <ul
             className={cn(
-              "text-text dark:text-textDark lg:items-center flex-col absolute top-full right-5 bg-background dark:bg-backgroundDark  w-60 rounded-md px-6 py-4 items-start lg:py-0 border-[1px] lg:border-none lg:w-fit lg:bg-transparent lg:dark:bg-transparent lg:static lg:flex-row lg:flex gap-x-10",
+              "text-text dark:text-textDark lg:items-center flex-col absolute top-full right-5 bg-background dark:bg-backgroundDark w-60 rounded-md px-6 py-4 items-start lg:py-0 border-[1px] lg:border-none lg:w-fit lg:bg-transparent lg:dark:bg-transparent lg:static lg:flex-row lg:flex gap-x-10",
               {
                 flex: toggleMenu,
                 hidden: !toggleMenu,
               }
             )}
           >
-            <li className="py-2 lg:py-4">
+            <li className="py-2">
               <a href="/" className="hover:opacity-70">
                 Home
               </a>
             </li>
-            <li className="py-2 lg:py-4">
+            <li className="py-2">
               <a href="/about" className="hover:opacity-70">
                 About
               </a>
             </li>
-            <li className="py-2 lg:py-4">
+            <li className="py-2">
               <a href="/blog" className="hover:opacity-70">
                 Blog
               </a>
             </li>
-            <li className="py-2 lg:py-4">
+            <li className="py-2">
               <a href="/support" className="hover:opacity-70">
                 Support
               </a>
             </li>
-            <li className="group relative py-2 lg:py-4">
+            <li className="group relative py-2">
               <DropDownMenu />
             </li>
           </ul>
@@ -89,7 +90,7 @@ const DropDownMenu = () => {
   };
   return (
     <>
-      <a className="hover:opacity-70 flex items-center gap-x-[5px] py-4 cursor-pointer" onClick={handleToggleSubMenu}>
+      <a className="hover:opacity-70 flex items-center gap-x-[5px] cursor-pointer" onClick={handleToggleSubMenu}>
         <span>pages</span>
         <ArrowDownSVG className="relative top-[2px]" />
       </a>

@@ -4,19 +4,17 @@ import ContainedLink from "@/components/ui/ContainedLink";
 import FormElement from "@/components/ui/FormElement";
 import Heading from "@/components/ui/Heading";
 import Paragraph from "@/components/ui/Paragraph";
-// import { useState } from "react";
 
 export default function SignUp() {
-  //   const [checked, setChecked] = useState<boolean>(false);
   return (
     <section className="bg-background dark:bg-backgroundDark py-24 relative">
       <div className="container py-24 relative z-20">
-        <div className="bg-opacity-50 flex flex-col  items-stretch justify-stretch gap-8 bg-secondaryBackground dark:bg-dropMenuDark rounded-lg max-w-xl py-16 px-4 md:px-16 mx-auto">
+        <div className="bg-opacity-70 flex flex-col  items-stretch justify-stretch gap-8 bg-secondaryBackground dark:bg-dropMenuDark rounded-lg max-w-xl py-16 px-4 md:px-16 mx-auto">
           <div>
             <Heading className="normal-case !text-3xl mb-2 text-center">Create your account</Heading>
             <Paragraph className="!text-base text-center">It’s totally free and super easy</Paragraph>
           </div>
-          <a href="#" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground transition">
+          <a href="#" className="bg-background dark:bg-[#242B51] py-3 rounded-lg shadow-md hover:text-foreground">
             <div className="flex items-center justify-center gap-3">
               <GoogleSVG />
               <p>Sign up with Google</p>
