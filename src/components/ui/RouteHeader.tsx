@@ -15,7 +15,7 @@ export default function RouteHeader({ route, heading }: { route: string; heading
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground transition text-gray-400"
+              className="hover:text-foreground transition text-gray-600 dark:text-gray-200"
             >
               Home
             </a>

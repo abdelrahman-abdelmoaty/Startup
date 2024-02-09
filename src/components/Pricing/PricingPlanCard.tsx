@@ -17,11 +17,13 @@ export default function PricingPlanCard({
       <div className="flex items-center">
         <div className="flex items-center">
           <p className="font-bold text-3xl">${yearly ? pricePerYear : pricePerMonth}</p>
-          <p className="text-3xl text-gray-400 font-bold">/{yearly ? "yr" : "mo"}</p>
+          <p className="text-3xl text-gray-600 dark:text-gray-200 font-bold">
+            /{yearly ? "yr" : "mo"}
+          </p>
         </div>
         <p className="ml-auto font-bold text-xl">{name}</p>
       </div>
-      <p className="text-gray-400">{desc}</p>
+      <p className="text-gray-600 dark:text-gray-200">{desc}</p>
       <ContainedLink href="#" className="text-center cursor-pointer">
         Start free trial
       </ContainedLink>
@@ -37,7 +39,7 @@ export default function PricingPlanCard({
                   <WrongMarkSVG className="text-foreground" />
                 )}
               </div>
-              <p className="text-gray-400 font-medium">{ppr}</p>
+              <p className="text-gray-600 dark:text-gray-200 font-medium">{ppr}</p>
             </div>
           );
         })}

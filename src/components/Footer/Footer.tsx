@@ -24,7 +24,7 @@ export default function Footer() {
                 className="w-40 h-auto hidden dark:block"
               />
             </a>
-            <p className="font-medium text-gray-400">
+            <p className="font-medium text-gray-600 dark:text-gray-200">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis.
             </p>
             <div className="flex gap-5 items-center">
@@ -57,21 +57,21 @@ export default function Footer() {
             <a
               href="/blog"
               aria-label="blog"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Blog
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Pricing
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               About
             </a>
@@ -83,21 +83,21 @@ export default function Footer() {
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               TOS
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Privacy Policy
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Refund Policy
             </a>
@@ -109,21 +109,21 @@ export default function Footer() {
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Open Support Ticket
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               Terms of Use
             </a>
             <a
               href="/"
               aria-label="home"
-              className="hover:text-foreground text-gray-400 font-medium"
+              className="hover:text-foreground text-gray-600 dark:text-gray-200 font-medium"
             >
               About
             </a>

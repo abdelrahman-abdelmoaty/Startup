@@ -27,7 +27,7 @@ export default function CTA() {
               name="msg"
               id="msg"
               placeholder="Enter your Message"
-              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-400 h-36 outline-none resize-none"
+              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-600 dark:text-gray-200 h-36 outline-none resize-none"
             />
           </div>
           <button
@@ -50,14 +50,14 @@ export default function CTA() {
               name="subName"
               id="subName"
               placeholder="Enter your name"
-              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-400 outline-none"
+              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-600 dark:text-gray-200 outline-none"
             />
             <input
               type="text"
               name="subEmail"
               id="subEmial"
               placeholder="Enter your email"
-              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-400 outline-none"
+              className="dark:bg-[#242B51] rounded-lg py-3 px-6 focus:outline-foreground focus:outline-1 shadow-lg text-gray-600 dark:text-gray-200 outline-none"
             />
             <button
               aria-label="subscribe"

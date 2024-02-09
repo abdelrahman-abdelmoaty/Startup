@@ -76,14 +76,12 @@ export default function SignUp() {
               </a>
             </div>
           </label>
-          <ContainedLink className="text-center py-5">Sign up</ContainedLink>
+          <ContainedLink href="#" className="text-center py-5">
+            Sign up
+          </ContainedLink>
           <p className="text-center">
             Already using Startup?{" "}
-            <a
-              href="#"
-              aria-label="sign in"
-              className="text-foreground hover:underline transition"
-            >
+            <a href="#" aria-label="sign in" className="text-foreground hover:underline transition">
               Sign in
             </a>
           </p>

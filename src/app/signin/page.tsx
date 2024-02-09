@@ -62,7 +62,9 @@ export default function SignIn() {
                 </span>
               </div>
               <div>
-                <p className="font-medium text-sm text-gray-400">Keep me signed in</p>
+                <p className="font-medium text-sm text-gray-600 dark:text-gray-200">
+                  Keep me signed in
+                </p>
               </div>
             </label>
             <a
@@ -73,14 +75,12 @@ export default function SignIn() {
               Forgot Password?
             </a>
           </div>
-          <ContainedLink className="text-center py-5">Sign in</ContainedLink>
+          <ContainedLink href="#" className="text-center py-5">
+            Sign in
+          </ContainedLink>
           <p className="text-center">
             Don’t you have an account?{" "}
-            <a
-              href="#"
-              aria-label="signup"
-              className="text-foreground hover:underline transition"
-            >
+            <a href="#" aria-label="signup" className="text-foreground hover:underline transition">
               Sign up
             </a>
           </p>
