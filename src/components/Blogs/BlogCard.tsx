@@ -3,15 +3,21 @@ import Image from "next/image";
 import { Blog } from "@/utils/types";
 import Heading from "@components/ui/Heading";
 import Paragraph from "@components/ui/Paragraph";
-export default function BlogCard({ blog: { title, desc, date, author, authorTitle, authorImgUrl, category, url, blogImgUrl } }: { blog: Blog }) {
+export default function BlogCard({
+  blog: { title, desc, date, author, authorTitle, authorImgUrl, category, url, blogImgUrl },
+}: {
+  blog: Blog;
+}) {
   return (
     <div className="shadow-lg dark:shadow-md bg-background dark:bg-[#1D2144] rounded-lg max-w-md">
       <div className="relative h-52">
         <Image sizes="" fill src={blogImgUrl} alt={title} className="rounded-t-lg" />
-        <div className="absolute right-4 top-4 bg-foreground rounded-3xl py-2 px-4 font-semibold text-sm text-white">{category}</div>
+        <div className="absolute right-4 top-4 bg-foreground rounded-3xl py-2 px-4 font-semibold text-sm text-white">
+          {category}
+        </div>
       </div>
       <div className="p-5">
-        <a href={url}>
+        <a aria-label="home" href={url}>
           <Heading className="text-2xl md:text-2xl mb-3">{title}</Heading>
         </a>
         <Paragraph className="text-base md:text-base mb-6">{desc}</Paragraph>

@@ -16,11 +16,20 @@ export default function Pricing() {
     <section className="bg-background dark:bg-backgroundDark py-24 relative">
       <div className="container">
         <Heading className="text-center">Simple and Affordable Pricing</Heading>
-        <Paragraph className="text-center mb-24">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</Paragraph>
+        <Paragraph className="text-center mb-24">
+          There are many variations of passages of Lorem Ipsum available but the majority have
+          suffered alteration in some form.
+        </Paragraph>
         <div className="flex items-center justify-center gap-5 my-12 font-semibold">
           <p className={cn({ "text-foreground": !yearly })}>Monthly</p>
           <label className="relative inline-flex items-center cursor-pointer">
-            <input type="checkbox" value="monthly" className="sr-only peer" onClick={handleToggle} />
+            <input
+              type="checkbox"
+              value="monthly"
+              className="sr-only peer"
+              aria-label="monthly yearly toggle"
+              onClick={handleToggle}
+            />
             <div className="w-12 h-4 bg-dropMenuDark peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-1/2 after:-translate-y-1/2 after:bg-white after:border-blue-600 after:border-[6px] after:rounded-full after:h-7 after:w-7 after:transition-all"></div>
           </label>
           <p className={cn({ "text-foreground": yearly })}>Yearly</p>

@@ -25,7 +25,7 @@ export default function Navbar() {
       })}
     >
       <div className="container flex items-center">
-        <a href="/" className="lg:mr-16 py-4">
+        <a href="/" aria-label="home" className="lg:mr-16 py-4">
           <Image
             width="100"
             height="100"
@@ -76,22 +76,22 @@ export default function Navbar() {
             )}
           >
             <li className="py-2">
-              <a href="/" className="hover:opacity-70">
+              <a href="/" aria-label="home" className="hover:opacity-70">
                 Home
               </a>
             </li>
             <li className="py-2">
-              <a href="/about" className="hover:opacity-70">
+              <a href="/about" aria-label="about" className="hover:opacity-70">
                 About
               </a>
             </li>
             <li className="py-2">
-              <a href="/blog" className="hover:opacity-70">
+              <a href="/blog" aria-label="blog" className="hover:opacity-70">
                 Blog
               </a>
             </li>
             <li className="py-2">
-              <a href="/support" className="hover:opacity-70">
+              <a href="/support" aria-label="support" className="hover:opacity-70">
                 Support
               </a>
             </li>
@@ -154,27 +154,27 @@ const DropDownMenu = () => {
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="#" className="hover:opacity-70">
+            <a href="#" aria-label="null" className="hover:opacity-70">
               Blog Sidebar Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="#" className="hover:opacity-70">
+            <a href="#" aria-label="null" className="hover:opacity-70">
               Blog Details Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="signin" className="hover:opacity-70">
+            <a href="signin" aria-label="singin" className="hover:opacity-70">
               Sign In Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="/signup" className="hover:opacity-70">
+            <a href="/signup" aria-label="signup" className="hover:opacity-70">
               Sign Up Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="/error" className="hover:opacity-70">
+            <a href="/error" aria-label="error" className="hover:opacity-70">
               Error Page
             </a>
           </li>
