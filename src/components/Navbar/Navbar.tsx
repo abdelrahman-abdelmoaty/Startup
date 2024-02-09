@@ -26,15 +26,46 @@ export default function Navbar() {
     >
       <div className="container flex items-center">
         <a href="/" className="lg:mr-16 py-4">
-          <Image width="100" height="100" src={logoBlack.src} alt={"logo"} className="w-full block dark:hidden" />
-          <Image width="100" height="100" src={logoWhite.src} alt={"logo"} className="w-full hidden dark:block" />
+          <Image
+            width="100"
+            height="100"
+            src={logoBlack.src}
+            alt={"logo"}
+            className="w-full block dark:hidden"
+          />
+          <Image
+            width="100"
+            height="100"
+            src={logoWhite.src}
+            alt={"logo"}
+            className="w-full hidden dark:block"
+          />
         </a>
-        <button onClick={handleToggleMenu} className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
-          <span className={cn("relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white", { "top-[7px] rotate-45": toggleMenu })}></span>
-          <span className={cn("relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white", { "opacity-0": toggleMenu })}></span>
-          <span className={cn("relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white", { "top-[-8px] -rotate-45": toggleMenu })}></span>
+        <button
+          aria-label="hambuger menu"
+          onClick={handleToggleMenu}
+          className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+        >
+          <span
+            className={cn(
+              "relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white",
+              { "top-[7px] rotate-45": toggleMenu }
+            )}
+          ></span>
+          <span
+            className={cn(
+              "relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white",
+              { "opacity-0": toggleMenu }
+            )}
+          ></span>
+          <span
+            className={cn(
+              "relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white",
+              { "top-[-8px] -rotate-45": toggleMenu }
+            )}
+          ></span>
         </button>
-        <nav className="">
+        <nav>
           <ul
             className={cn(
               "text-text dark:text-textDark lg:items-center flex-col absolute top-full right-5 bg-background dark:bg-backgroundDark w-60 rounded-md px-6 py-4 items-start lg:py-0 border-[1px] lg:border-none lg:w-fit lg:bg-transparent lg:dark:bg-transparent lg:static lg:flex-row lg:flex gap-x-10",
@@ -70,7 +101,10 @@ export default function Navbar() {
           </ul>
         </nav>
         <div className="ml-auto items-center gap-5 flex">
-          <a href="/signin" className="hidden md:block hover:opacity-70 transition duration-300 text-text font-bold dark:text-textDark">
+          <a
+            href="/signin"
+            className="hidden md:block hover:opacity-70 transition duration-300 text-text font-bold dark:text-textDark"
+          >
             Sign in
           </a>
           <ContainedLink href="/signup" className="hidden md:block">
@@ -90,7 +124,10 @@ const DropDownMenu = () => {
   };
   return (
     <>
-      <a className="hover:opacity-70 flex items-center gap-x-[5px] cursor-pointer" onClick={handleToggleSubMenu}>
+      <a
+        className="hover:opacity-70 flex items-center gap-x-[5px] cursor-pointer"
+        onClick={handleToggleSubMenu}
+      >
         <span>pages</span>
         <ArrowDownSVG className="relative top-[2px]" />
       </a>

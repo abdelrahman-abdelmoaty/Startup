@@ -12,9 +12,13 @@ export default function Video() {
     <section className="bg-background dark:bg-backgroundDark relative">
       <div className="container text-center py-20 md:py-28 z-20 relative">
         <Heading>We are ready to help</Heading>
-        <Paragraph className="mb-12">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.</Paragraph>
+        <Paragraph className="mb-12">
+          There are many variations of passages of Lorem Ipsum available but the majority have
+          suffered alteration in some form.
+        </Paragraph>
         <div className="relative max-w-[770px] mx-auto aspect-[77/40]">
           <button
+            aria-label="play video"
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 bg-white rounded-full p-5 text-foreground bg-opacity-80"
             onClick={() => {
               setOpenVideo(true);
