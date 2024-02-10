@@ -125,6 +125,8 @@ const DropDownMenu = () => {
   return (
     <>
       <a
+        href="#"
+        aria-label="pages"
         className="hover:opacity-70 flex items-center gap-x-[5px] cursor-pointer"
         onClick={handleToggleSubMenu}
       >
