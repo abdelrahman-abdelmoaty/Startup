@@ -7,17 +7,16 @@ Startup is a sleek, responsive frontend for a startup, showcasing modern design 
 
 ## Tech Stack
 
-- **Next.js** - Framework for server-side rendering and static site generation  
-- **React.js** - Library for building interactive UI components  
-- **Tailwind CSS** - Utility-first CSS framework for rapid styling  
+- **Next.js** - Framework for server-side rendering and static site generation. 
+- **React.js** - Library for building interactive UI components.  
+- **Tailwind CSS** - Utility-first CSS framework for rapid styling.  
 
 ## Features
 
-- **Responsive Design**: Adapts seamlessly across all devices  
-- **Dual Themes**: Supports two themes (light and dark modes) for enhanced user customization  
-- **Interactive UI**: Includes dynamic sections, call-to-action buttons, and modals  
-- **Performance Optimized**: Fast load times with modern optimization techniques  
-- **Modern Aesthetics**: Clean, professional design with engaging animations  
+- **Responsive Design**: Adapts seamlessly across all devices.  
+- **Dual Themes**: Supports two themes (light and dark modes) for enhanced user customization.  
+- **Performance Optimized**: Fast load times with modern optimization techniques.  
+- **Modern Aesthetics**: Clean, professional design.
 
 ## Live Demo
 
