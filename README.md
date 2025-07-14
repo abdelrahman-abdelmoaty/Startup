@@ -17,84 +17,63 @@
 
 ## Overview
 
-Startup is a comprehensive Next.js template designed specifically for startups and SaaS businesses. It provides all the essential pages, components, and sections needed to launch a complete business website with modern design principles and optimized performance.
+Startup is a comprehensive Next.js template designed specifically for startups and SaaS businesses. The application includes a complete landing page, blog system with pagination, pricing pages, policy pages, and all essential business components needed to launch a professional website.
 
 ## Features
 
 ### Core Functionality
-
-- 🏠 **Landing Page** - Hero section with clear value proposition
-- 📝 **Blog System** - Full blog with pagination, search, and categorization
-- 💰 **Pricing Pages** - Flexible pricing tables and plans
-- 👥 **Team & About** - Company information and team showcases
-- 📞 **Contact Forms** - Multiple contact options with form validation
-- ❓ **Policy Pages** - Terms, Privacy, and Refund policies
-- 🎥 **Video Sections** - Interactive video presentations
+- 🏠 **Landing Page** - Hero section with clear value proposition and call-to-actions
+- 📝 **Blog System** - Full blog with pagination, search, and category filtering
+- 💰 **Pricing Pages** - Flexible pricing tables and subscription plans
+- 👥 **About & Team** - Company information and team showcases
+- 📞 **Contact Forms** - Lead generation with form validation and submissions
+- ❓ **Policy Pages** - Terms, Privacy, and Refund policy pages
+- 🎥 **Video Sections** - Interactive video presentations with modal popups
 
 ### Technical Features
-
-- ⚡ **Dynamic Routing** - SEO-optimized page routing
-- 🎨 **Interactive Components** - Custom UI components with animations
-- 🌓 **Dark/Light Themes** - Dual theme support with smooth transitions
-- 📱 **Responsive Design** - Mobile-first approach for all devices
+- ⚡ **Dynamic Routing** - SEO-optimized blog pages (`/blog/details/[id]`)
+- 🎨 **Interactive Components** - Custom UI components with hover effects and animations
 - 🔍 **SEO Optimization** - Meta tags and semantic HTML structure
-- 📊 **Performance Optimized** - Fast load times and modern optimization
-
-### Business Pages
-
-- 🏢 **Company Pages** - About, Team, Services
-- 📈 **SaaS Features** - Feature showcases and comparisons
-- 💼 **Business Sections** - Testimonials, Partners, Statistics
-- 📧 **Lead Generation** - Newsletter signup and contact forms
+- 📊 **Data Management** - Centralized data layer with TypeScript interfaces
+- 🎯 **Form Handling** - Contact forms with client-side validation and state management
 
 ## Tech Stack
 
 - **Framework**: Next.js 13+ with App Router
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Components**: React 18 with Modern Hooks
+- **Components**: React 18 with Hooks
+- **Themes**: Dark/Light mode with CSS custom properties
 - **Icons**: Custom SVG components
 - **Deployment**: Vercel
-- **Performance**: Optimized images and lazy loading
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js 18 or higher
-- npm, yarn, or pnpm
+- npm or yarn
 
 ### Installation
 
 1. **Clone the repository**
-
    ```bash
    git clone https://github.com/abdelrahman-abdelmoaty/Startup.git
    cd Startup
    ```
 
 2. **Install dependencies**
-
    ```bash
    npm install
-   # or
-   yarn install
-   # or
-   pnpm install
    ```
 
 3. **Start development server**
-
    ```bash
    npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
    ```
 
 4. **Open your browser**
-
+   
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Available Scripts
@@ -112,7 +91,7 @@ npm run lint     # Run ESLint
 src/
 ├── app/                    # Next.js 13+ App Router
 │   ├── blog/              # Blog pages with pagination
-│   │   ├── details/       # Individual blog post
+│   │   ├── details/[id]/  # Dynamic blog post pages
 │   │   └── sidebar/       # Blog with sidebar and filters
 │   ├── pricing/           # Pricing page
 │   ├── terms/             # Terms and conditions
@@ -125,14 +104,11 @@ src/
 │
 ├── components/            # Reusable UI components
 │   ├── ui/               # Basic UI elements
-│   │   ├── Heading.tsx   # Typography components
-│   │   ├── Paragraph.tsx # Text components
-│   │   └── ContainedLink.tsx # Link components
 │   ├── Navbar/           # Navigation with mobile menu
 │   ├── Footer/           # Footer with sitemap
 │   ├── Hero/             # Landing page hero
 │   ├── Features/         # Feature showcases
-│   ├── Blogs/            # Blog components
+│   ├── Blogs/            # Blog components and data
 │   ├── Testimonials/     # Customer testimonials
 │   ├── Pricing/          # Pricing tables
 │   ├── Video/            # Video sections
@@ -158,16 +134,9 @@ src/
 
 - **Component Architecture**: Modular design with reusable components
 - **TypeScript**: Strict typing for better development experience
-- **Theme System**: CSS custom properties for seamless theme switching
+- **Dynamic Routing**: Next.js App Router with dynamic parameters
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **Performance**: Optimized images and component lazy loading
-
-### Customization
-
-- **Themes**: Modify `src/app/globals.css` for custom color schemes
-- **Components**: All components in `src/components/` are fully customizable
-- **Content**: Update data files in component directories
-- **Styling**: Tailwind CSS classes for rapid customization
+- **State Management**: React hooks for component state
 
 ### Code Quality
 
@@ -176,15 +145,10 @@ src/
 - **Component Organization**: Clear separation of concerns
 - **Modern Practices**: React 18 features and Next.js 13+ App Router
 
-## Screenshots
-
-![Mobile View](https://github.com/user-attachments/assets/a01e56d1-c4c6-4ac4-b099-1060b5fdb51f)
-![Desktop View](https://github.com/user-attachments/assets/cf78a453-6a7e-45b6-af86-c977d0c90b15)
-
 ## License
 
 This project is created for portfolio demonstration purposes. All code implemented by Abdelrahman Abdelmoaty.
 
 ---
 
-\*Built with passion by **Abdelrahman Abdelmoaty\***
+*Built with passion by **Abdelrahman Abdelmoaty***
