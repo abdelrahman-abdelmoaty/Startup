@@ -192,7 +192,7 @@ const DropDownMenu = () => {
           </li>
           <li className="px-1 lg:px-4 py-2">
             <Link
-              href="/blog/details"
+              href="/blog/details/1"
               aria-label="blog details"
               className="hover:opacity-70"
             >
