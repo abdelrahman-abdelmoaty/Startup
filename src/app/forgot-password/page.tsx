@@ -3,6 +3,7 @@ import ContainedLink from "@/components/ui/ContainedLink";
 import FormElement from "@/components/ui/FormElement";
 import Heading from "@/components/ui/Heading";
 import Paragraph from "@/components/ui/Paragraph";
+import Link from "next/link";
 
 export default function ForgotPassword() {
   return (
@@ -14,38 +15,39 @@ export default function ForgotPassword() {
               Forgot Password?
             </Heading>
             <Paragraph className="!text-base text-center">
-              Enter your email address and we'll send you a link to reset your password.
+              Enter your email address and we'll send you a link to reset your
+              password.
             </Paragraph>
           </div>
-          
-          <FormElement 
-            label="your email" 
-            name="email" 
-            placeholder="Enter your Email" 
+
+          <FormElement
+            label="your email"
+            name="email"
+            placeholder="Enter your Email"
           />
-          
+
           <ContainedLink href="#" className="text-center py-5">
             Send Reset Link
           </ContainedLink>
-          
+
           <div className="text-center">
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
               Remember your password?
             </p>
             <div className="flex justify-center gap-4">
-              <a 
-                href="/signin" 
+              <Link
+                href="/signin"
                 className="text-foreground hover:underline transition font-medium"
               >
                 Sign In
-              </a>
+              </Link>
               <span className="text-gray-400">•</span>
-              <a 
-                href="/signup" 
+              <Link
+                href="/signup"
                 className="text-foreground hover:underline transition font-medium"
               >
                 Sign Up
-              </a>
+              </Link>
             </div>
           </div>
         </div>

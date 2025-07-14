@@ -4,6 +4,7 @@ import ContainedLink from "@/components/ui/ContainedLink";
 import FormElement from "@/components/ui/FormElement";
 import Heading from "@/components/ui/Heading";
 import Paragraph from "@/components/ui/Paragraph";
+import Link from "next/link";
 
 export default function SignIn() {
   return (
@@ -29,13 +30,26 @@ export default function SignIn() {
           </a>
           <div className="flex items-center justify-between gap-5">
             <hr className="flex-1" />
-            <p className="text-sm text-gray-500 dark:text-white">Or, sign in with your email</p>
+            <p className="text-sm text-gray-500 dark:text-white">
+              Or, sign in with your email
+            </p>
             <hr className="flex-1" />
           </div>
-          <FormElement label="your email" name="email" placeholder="Enter your Email" />
-          <FormElement label="your password" name="pwd" placeholder="Enter your Password" />
+          <FormElement
+            label="your email"
+            name="email"
+            placeholder="Enter your Email"
+          />
+          <FormElement
+            label="your password"
+            name="pwd"
+            placeholder="Enter your Password"
+          />
           <div className="flex justify-between items-center">
-            <label htmlFor="accept-terms" className="text-sm text-gray-500 flex items-start gap-3">
+            <label
+              htmlFor="accept-terms"
+              className="text-sm text-gray-500 flex items-start gap-3"
+            >
               <div className="w-6 h-6 border-2 p-2 cursor-pointer rounded border-gray-200 dark:border-gray-700 flex items-center justify-center">
                 <input
                   type="checkbox"
@@ -67,22 +81,26 @@ export default function SignIn() {
                 </p>
               </div>
             </label>
-            <a
+            <Link
               href="/forgot-password"
               aria-label="forgot password"
               className="text-foreground hover:underline transition"
             >
               Forgot Password?
-            </a>
+            </Link>
           </div>
           <ContainedLink href="#" className="text-center py-5">
             Sign in
           </ContainedLink>
           <p className="text-center">
             Don't you have an account?{" "}
-            <a href="/signup" aria-label="signup" className="text-foreground hover:underline transition">
+            <Link
+              href="/signup"
+              aria-label="signup"
+              className="text-foreground hover:underline transition"
+            >
               Sign up
-            </a>
+            </Link>
           </p>
         </div>
       </div>
