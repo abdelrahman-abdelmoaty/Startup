@@ -3,9 +3,9 @@ import { useState } from "react";
 import Heading from "@components/ui/Heading";
 import Paragraph from "@components/ui/Paragraph";
 import PlaySVG from "@components/SVGs/PlaySVG";
-import videoImage from "@images/video/videoImage.jpg";
 import Image from "next/image";
 import ShapeSVG from "../SVGs/ShapeSVG";
+import videoImg from "@images/video/videoImage.jpg";
 export default function Video() {
   const [openVideo, setOpenVideo] = useState<boolean>(false);
   return (
@@ -27,7 +27,12 @@ export default function Video() {
             <PlaySVG />
           </button>
           <div className="w-full h-full relative">
-            <Image fill src={videoImage.src} alt="" />
+            <Image 
+              fill 
+              src={videoImg.src} 
+              alt="Video thumbnail" 
+              className="object-cover rounded-lg"
+            />
           </div>
         </div>
       </div>

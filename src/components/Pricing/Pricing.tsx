@@ -13,7 +13,7 @@ export default function Pricing() {
     setYearly((prev) => !prev);
   };
   return (
-    <section className="bg-background dark:bg-backgroundDark py-24 relative">
+    <section id="pricing" className="bg-background dark:bg-backgroundDark py-24 relative">
       <div className="container">
         <Heading className="text-center">Simple and Affordable Pricing</Heading>
         <Paragraph className="text-center mb-24">

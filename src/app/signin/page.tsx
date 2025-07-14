@@ -68,7 +68,7 @@ export default function SignIn() {
               </div>
             </label>
             <a
-              href="#"
+              href="/forgot-password"
               aria-label="forgot password"
               className="text-foreground hover:underline transition"
             >
@@ -79,8 +79,8 @@ export default function SignIn() {
             Sign in
           </ContainedLink>
           <p className="text-center">
-            Don’t you have an account?{" "}
-            <a href="#" aria-label="signup" className="text-foreground hover:underline transition">
+            Don't you have an account?{" "}
+            <a href="/signup" aria-label="signup" className="text-foreground hover:underline transition">
               Sign up
             </a>
           </p>

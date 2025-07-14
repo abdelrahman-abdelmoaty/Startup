@@ -20,6 +20,7 @@ export type PricingPlan = {
 };
 
 export type Blog = {
+  id: number;
   title: string;
   desc: string;
   date: number;

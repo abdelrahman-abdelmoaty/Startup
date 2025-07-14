@@ -24,7 +24,7 @@ export default function PricingPlanCard({
         <p className="ml-auto font-bold text-xl">{name}</p>
       </div>
       <p className="text-gray-600 dark:text-gray-200">{desc}</p>
-      <ContainedLink href="#" className="text-center cursor-pointer">
+      <ContainedLink href="/pricing" className="text-center cursor-pointer">
         Start free trial
       </ContainedLink>
       <hr className="border-gray-500 border-opacity-30 my-4" />

@@ -64,15 +64,15 @@ export default function SignUp() {
             <div>
               By creating account means you agree to the{" "}
               <a
-                href="#"
+                href="/terms"
                 aria-label="terms and condition"
                 className="text-foreground hover:underline transition"
               >
                 Terms and Condition
               </a>
               , and our{" "}
-              <a href="#" aria-label="null" className="text-foreground hover:underline transition">
-                Privace Policy
+              <a href="/privacy" aria-label="privacy policy" className="text-foreground hover:underline transition">
+                Privacy Policy
               </a>
             </div>
           </label>
@@ -81,7 +81,7 @@ export default function SignUp() {
           </ContainedLink>
           <p className="text-center">
             Already using Startup?{" "}
-            <a href="#" aria-label="sign in" className="text-foreground hover:underline transition">
+            <a href="/signin" aria-label="sign in" className="text-foreground hover:underline transition">
               Sign in
             </a>
           </p>

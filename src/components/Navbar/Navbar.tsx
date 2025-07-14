@@ -91,6 +91,11 @@ export default function Navbar() {
               </a>
             </li>
             <li className="py-2">
+              <a href="/pricing" aria-label="pricing" className="hover:opacity-70">
+                Pricing
+              </a>
+            </li>
+            <li className="py-2">
               <a href="/support" aria-label="support" className="hover:opacity-70">
                 Support
               </a>
@@ -146,6 +151,11 @@ const DropDownMenu = () => {
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
+            <a href="/pricing" className="hover:opacity-70">
+              Pricing Page
+            </a>
+          </li>
+          <li className="px-1 lg:px-4 py-2">
             <a href="/support" className="hover:opacity-70">
               Contact Page
             </a>
@@ -156,17 +166,17 @@ const DropDownMenu = () => {
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="#" aria-label="null" className="hover:opacity-70">
+            <a href="/blog/sidebar" aria-label="blog sidebar" className="hover:opacity-70">
               Blog Sidebar Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="#" aria-label="null" className="hover:opacity-70">
+            <a href="/blog/details" aria-label="blog details" className="hover:opacity-70">
               Blog Details Page
             </a>
           </li>
           <li className="px-1 lg:px-4 py-2">
-            <a href="signin" aria-label="singin" className="hover:opacity-70">
+            <a href="/signin" aria-label="signin" className="hover:opacity-70">
               Sign In Page
             </a>
           </li>
